@@ -9,7 +9,36 @@
     tools:context=".DetallePelicula">
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    
+        <ImageView
+            android:id="@+id/iv_pelicula_imagen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/bones"/>
+
+        <TextView
+            android:id="@+id/tv_nombre_pelicula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BONES"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_pelicula_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="blablabla"
+            android:textSize="20dp"/>
+
+
+
+
+  </LinearLayout>
 
 </LinearLayout>
