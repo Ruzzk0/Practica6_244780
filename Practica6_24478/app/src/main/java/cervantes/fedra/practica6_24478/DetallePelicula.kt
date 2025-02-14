@@ -1,25 +1,26 @@
 package cervantes.fedra.practica6_24478
 
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import cervantes.fedra.practica6_24478.databinding.ActivityDetallePeliculaBinding
 
 class DetallePelicula : AppCompatActivity() {
-
-    private lateinit var binding: ActivityDetallePeliculaBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
-        binding = ActivityDetallePeliculaBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        enableEdgeToEdge()
+        setContentView(R.layout.activity_detalle_pelicula)
 
-        val bundle = intent.extras
+        var header: ImageView = findViewById(R.id.movie_header)
+        var title: TextView = findViewById(R.id.movie_title_detail)
+        var desc: TextView = findViewById(R.id.movie_desc)
 
-        if (bundle != null) {
-            binding.ivPeliculaImagen.setImageResource(bundle.getInt("header"))
-            binding.tvNombrePelicula.text = bundle.getString("nombre")
-            binding.tvPeliculaDesc.text = bundle.getString("sinopsis")
-        }
+        val content = intent.extras
+
+        header.setImageResource(content!!.getInt("header"))
+        title.setText(content.getString("titulo"))
+        desc.setText(content.getString("sinopsis"))
     }
 }
