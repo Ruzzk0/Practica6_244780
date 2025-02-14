@@ -1,6 +1,5 @@
 package cervantes.fedra.practica6_24478
 
-
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -87,7 +86,7 @@ class CatalogActivity : AppCompatActivity() {
             title.setText(pelicula.titulo)
 
             image.setOnClickListener{
-                var intent = Intent(context, DetallePelicula::class.java)
+                var intent = Intent(context, MovieDetail::class.java)
                 intent.putExtra("titulo", pelicula.titulo)
                 intent.putExtra("sinopsis", pelicula.sinopsis)
                 intent.putExtra("header", pelicula.header)

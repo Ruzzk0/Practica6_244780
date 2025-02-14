@@ -5,13 +5,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import cervantes.fedra.practica6_24478.databinding.ActivityDetallePeliculaBinding
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 
-class DetallePelicula : AppCompatActivity() {
+class MovieDetail : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_detalle_pelicula)
+        setContentView(R.layout.activity_movie_detail)
 
         var header: ImageView = findViewById(R.id.movie_header)
         var title: TextView = findViewById(R.id.movie_title_detail)
