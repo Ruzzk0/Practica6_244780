@@ -25,9 +25,9 @@ class CatalogActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_catalog) // Se quita enableEdgeToEdge()
+        setContentView(R.layout.activity_catalog)
 
-        // Verifica que los GridView existen en el layout
+
         val gridPelis: GridView = findViewById(R.id.movies_catalog)
         val gridSeries: GridView = findViewById(R.id.series_catalog)
 

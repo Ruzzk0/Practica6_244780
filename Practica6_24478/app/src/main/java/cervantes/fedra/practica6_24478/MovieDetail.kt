@@ -26,7 +26,7 @@ class MovieDetail : AppCompatActivity() {
             desc.text = content.getString("sinopsis")
         }
 
-        // Evento para abrir SeatSelectionActivity cuando se presiona el botón
+
         btnBuyTicket.setOnClickListener {
             val intent = Intent(this, SeatSelection::class.java)
             startActivity(intent)
