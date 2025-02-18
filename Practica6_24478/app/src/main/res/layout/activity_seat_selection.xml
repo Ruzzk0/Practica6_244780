@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".SeatSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movies"
+            android:textColor="@color/mustard"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mustard"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"/>
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="5"
+        android:padding="8dp"
+        android:rowCount="4"
+        android:layout_gravity="center">
+
+        <!-- Generación de 20 botones -->
+        <ToggleButton
+            android:id="@+id/btn1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="1"
+            android:textOn="1"
+            android:textOff="1"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="2"
+            android:textOn="2"
+            android:textOff="2"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="3"
+            android:textOn="3"
+            android:textOff="3"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="4"
+            android:textOn="4"
+            android:textOff="4"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="5"
+            android:textOn="5"
+            android:textOff="5"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="6"
+            android:textOn="6"
+            android:textOff="6"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="7"
+            android:textOn="7"
+            android:textOff="7"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="8"
+            android:textOn="8"
+            android:textOff="8"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="9"
+            android:textOn="9"
+            android:textOff="9"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="10"
+            android:textOn="10"
+            android:textOff="10"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="11"
+            android:textOn="11"
+            android:textOff="11"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="12"
+            android:textOn="12"
+            android:textOff="12"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="13"
+            android:textOn="13"
+            android:textOff="13"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="14"
+            android:textOn="14"
+            android:textOff="14"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="15"
+            android:textOn="15"
+            android:textOff="15"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="16"
+            android:textOn="16"
+            android:textOff="16"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn17"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="17"
+            android:textOn="17"
+            android:textOff="17"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="18"
+            android:textOn="18"
+            android:textOff="18"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn19"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="19"
+            android:textOn="19"
+            android:textOff="19"
+            android:background="@drawable/selector_button"/>
+
+        <ToggleButton
+            android:id="@+id/btn20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="20"
+            android:textOn="20"
+            android:textOff="20"
+            android:background="@drawable/selector_button"/>
+    </GridLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Screen"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@color/babygray"/>
+
+</LinearLayout>
